@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     sum=0;
-    for (int i = 0; i <=0 ; i++)
+    for (int i = 0; i <=9 ; i++)
     {
         sum=sum+a[i];
     }
