@@ -1,5 +1,6 @@
 {
-    "files.associations": {
-        "algorithm": "c"
-    }
+  "files.associations": {
+    "algorithm": "c",
+    "HELLO.C": "cpp"
+  }
 }

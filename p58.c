@@ -9,18 +9,17 @@ int main(){
     }
     for ( i = 0; i <=8 ; i++)
     {
-        minindex=i;
-        for ( j = i+1; j <=9 ; j++)
+        for ( j = 0; j < 4-i; j++)
         {
-            if (a[j]>a[minindex])
+            if (a[j]>a[j+1])
             {
-                minindex=j;
+                t=a[j+1];
+            a[j+1]=a[j];
+            a[j]=t;
             }
             
         }
-        t=a[i];
-        a[i]=a[minindex];
-        a[minindex]=t;
+        
         
     }
     printf("sorted array:\t");
